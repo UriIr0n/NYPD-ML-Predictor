@@ -1,18 +1,45 @@
-Course Project.pdf
+# ---------------------------------
+# 1. Data Files (Heavy/Sensitive)
+# ---------------------------------
+*.csv
+*.xlsx
+data/
+raw_data/
+
+# ---------------------------------
+# 2. Generated Output & Reports
+# ---------------------------------
+
 reports/
+
+# ---------------------------------
+# 3. Private/Course Files
+# ---------------------------------
+
+Course Project.pdf
+
+# ---------------------------------
+# 4. Virtual Environment
+# ---------------------------------
+
 venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+env/
+.env
+
+# ---------------------------------
+# 5. Jupyter Notebooks Junk
+# ---------------------------------
 .ipynb_checkpoints/
-*.log
-*.pkl
-*.joblib
-.vscode/
+*/.ipynb_checkpoints/
+
+# ---------------------------------
+# 6. Python Cache
+# ---------------------------------
+__pycache__/
+*.py[cod]
+
+# ---------------------------------
+# 7. OS System Files
+# ---------------------------------
 .DS_Store
 Thumbs.db
-*.tmp
-*.temp
-*.bak
